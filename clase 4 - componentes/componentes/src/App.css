@@ -1,0 +1,25 @@
+.MiComponente {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.25rem;
+  border-radius: 2rem;
+  margin: 2rem;
+}
+
+.MiComponente:first-child {
+  margin-left: 8rem;
+}
+
+.reyes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+span {
+  color: aqua;
+}
