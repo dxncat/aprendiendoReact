@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+  font-family: 'Roboto', sans-serif;
+  background-color: gray;
+}
+
+.App {
+  display: flex;
+  height: calc(100vh - 48px);
+}
+
+.hijo {
+  width: 33.3%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.colores {
+  display: flex;
+}
+
+.color {
+  width: 22px;
+  height: 22px;
+  background-color: red;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.color:nth-child(1) {
+  background-color: #4285F4;
+}
+
+.color:nth-child(2) {
+  background-color: #EA4335;
+}
+
+.color:nth-child(3) {
+  background-color: #FBBC05;
+}
+
+.color:nth-child(4) {
+  background-color: #34A853;
+}
+
+div img{
+  width: 100%;
+  vertical-align: top;
+}
+
+.idiomas{
+  display: flex;
+  justify-content: center;
+}
+
+.bandera{
+  width: 75px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.botones{
+  text-align: center; 
+}
+
+.botones button{
+  width: 150px;
+  background-color: teal;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 5px;
+  margin: 10px;
+  border: 1px dotted black;
+  font-size: 1.05em;
+  cursor: pointer;
+}
+
+.profesora, .ubicacion{
+  width: 320px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: teal;
+  padding-bottom: 15px;
+  color: white;
+  margin: auto;
+}
